@@ -3,7 +3,7 @@ import Teamprops from "../components/teamprops";
 import Teamprops2 from "../components/teamprops2";
 import Teamprops3 from "../components/teamprops3";
 import Teamprops4 from "../components/teamprops4";
-import { Col } from "react-bootstrap";
+import { Col, Container } from "react-bootstrap";
 
 const Home = () => {
   return (
@@ -51,7 +51,7 @@ const Home = () => {
         title2="What people say about us"
       />
 
-      <div className="Textboxcontainer">
+      <Container className="Textboxcontainer">
         <Col>
           <Teamprops4
             name4="Amy Klassen"
@@ -132,7 +132,7 @@ const Home = () => {
             stars={[0, 1, 2, 3, 4]}
           />
         </Col>
-      </div>
+      </Container>
     </div>
   );
 };
