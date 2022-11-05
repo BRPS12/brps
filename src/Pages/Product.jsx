@@ -23,7 +23,8 @@ const Product = () => {
                 blogheader="The Emotional Toll of Being in UX"
                 blogcontent="There are times when our work impacts us deeply — sometimes in ways we neither acknowledge nor understand"
                 blogname="Wade Warren | 2nd January , 2022"
-                bg=""
+                bg="https://images.squarespace-cdn.com/content/v1/5e2fbee4883d490ef064c414/1580623923638-3DU02TVC5PTLEKA51ORH/photo-1558403194-611308249627.jpeg"
+                blogpf="https://sy-security.fr/wp-content/uploads/2020/10/christian-buehner-DItYlc26zVI-unsplash.jpg"
               />
             </Col>
             <Col className="w-25 m-2">

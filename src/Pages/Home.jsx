@@ -56,7 +56,15 @@ const Home = () => {
           <Teamprops4
             name4="Amy Klassen"
             content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
-            Profile=""
+            profile="https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NXx8fGVufDB8fHx8&w=1000&q=80"
+            stars={[0, 1, 2, 3, 4]}
+          />
+        </Col>
+        <Col>
+          <Teamprops4
+            name4="Jane Cooper"
+            content4="Amet minim mollit non deserunt est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+            profile="https://sy-security.fr/wp-content/uploads/2020/10/christian-buehner-DItYlc26zVI-unsplash.jpg"
             stars={[0, 1, 2, 3, 4]}
           />
         </Col>
@@ -64,7 +72,7 @@ const Home = () => {
           <Teamprops4
             name4="Amy Klassen"
             content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
-            Profile=""
+            profile=""
             stars={[0, 1, 2, 3, 4]}
           />
         </Col>
@@ -72,7 +80,7 @@ const Home = () => {
           <Teamprops4
             name4="Amy Klassen"
             content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
-            Profile=""
+            profile=""
             stars={[0, 1, 2, 3, 4]}
           />
         </Col>
@@ -80,7 +88,7 @@ const Home = () => {
           <Teamprops4
             name4="Amy Klassen"
             content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
-            Profile=""
+            profile=""
             stars={[0, 1, 2, 3, 4]}
           />
         </Col>
@@ -88,7 +96,7 @@ const Home = () => {
           <Teamprops4
             name4="Amy Klassen"
             content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
-            Profile=""
+            profile=""
             stars={[0, 1, 2, 3, 4]}
           />
         </Col>
@@ -96,7 +104,7 @@ const Home = () => {
           <Teamprops4
             name4="Amy Klassen"
             content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
-            Profile=""
+            profile=""
             stars={[0, 1, 2, 3, 4]}
           />
         </Col>
@@ -104,7 +112,7 @@ const Home = () => {
           <Teamprops4
             name4="Amy Klassen"
             content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
-            Profile=""
+            profile=""
             stars={[0, 1, 2, 3, 4]}
           />
         </Col>
@@ -112,7 +120,7 @@ const Home = () => {
           <Teamprops4
             name4="Amy Klassen"
             content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
-            Profile=""
+            profile=""
             stars={[0, 1, 2, 3, 4]}
           />
         </Col>
@@ -120,15 +128,7 @@ const Home = () => {
           <Teamprops4
             name4="Amy Klassen"
             content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
-            Profile=""
-            stars={[0, 1, 2, 3, 4]}
-          />
-        </Col>
-        <Col>
-          <Teamprops4
-            name4="Amy Klassen"
-            content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
-            Profile=""
+            profile=""
             stars={[0, 1, 2, 3, 4]}
           />
         </Col>

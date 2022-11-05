@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-const Blog = ({ bg, blogheader, blogcontent, blogname }) => {
+const Blog = ({ bg, blogheader, blogcontent, blogname, blogpf }) => {
   const blogstyle = {
     header: {
       fontSize: 30,
@@ -29,7 +29,8 @@ const Blog = ({ bg, blogheader, blogcontent, blogname }) => {
       <div style={blogstyle.header}>{blogheader}</div>
       <div style={blogstyle.content}>{blogcontent}</div>
       <div style={blogstyle.fullname}>
-        <img className="blogpf" />
+        <img className="blogpf" src={blogpf} alt="" />
+
         <div style={blogstyle.name}>{blogname}</div>
       </div>
     </div>

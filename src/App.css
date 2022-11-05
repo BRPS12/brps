@@ -261,7 +261,6 @@ body {
   height: 55px;
   border-radius: 50%;
   margin-left: 30px;
-  background: url(./assets/Ellipse.png);
 }
 .Name{
   font-size: large;
@@ -306,8 +305,6 @@ body {
   background-color: aliceblue;
 }
 .blogpost{
-  /* width: 400px;
-  height: 500px; */
   background-color:white;
 
 
@@ -316,13 +313,96 @@ body {
 .bgblog{
   width: 370px;
   height: 150px; 
-  background-image: url("./assets/Rectangle.png");
 }
 .blogpf{
   width: 55px;
   height: 55px;
   border-radius: 50%;
   margin-left: 30px;
-  background: url(./assets/Ellipse.png);
 }
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.row1 {
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+.zugeer {
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tom {
+  font-size: 48px;
+  color: white;
+  margin: 0px;
+}
+
+.jijig {
+  font-size: 25px;
+  color: white;
+}
+.star{
+  width: 35px;
+  height: 35px;
+  display: flex;
+}
+
+.search {
+  width: 316px;
+  height: 56px;
+  font-size: 28px;
+  margin-top: 50px;
+}
+
+
+p {
+  margin: 10px;
+  font-size: 20px;
+}
+.name {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px;
+}
+.pro {
+  margin: 10px;
+  width: 16%;
+  height: 85%;
+}
+.pro1 {
+  width: 56px;
+  height: 56px;
+}
+
+.center {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: white;
+}
+.margin {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.margin1 {
+  margin: 10%;
+}
+.text {
+  margin-top: 20px;
+  margin-left: 0%;
+}
+
+
 
