@@ -1,6 +1,7 @@
 body {
   width: 100vw;
   overflow-x: hidden;
+
 }
 
   .Body {
@@ -131,13 +132,7 @@ body {
   width:100vw;
   height:100vh;
   margin: 0;
-}
-.Garchig{
-  font-size: xx-large;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 45px;
-  font-weight: 700;
-  
+
 }
 .Textbox{
   display: flex;
@@ -146,7 +141,16 @@ body {
   margin-top: 600px;
   width: 400px;
   height: 700px;
+
 }
+.Garchig{
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 45px;
+  font-weight: 700;
+  
+}
+
 .image1{
   background-image: url("./assets/meet.png");
   position: absolute;
@@ -253,7 +257,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .Profile{
-  margin-top: 0px;
   width: 55px;
   height: 55px;
   border-radius: 50%;
@@ -301,5 +304,25 @@ body {
 }
 .BLOGPOSTS{
   background-color: aliceblue;
+}
+.blogpost{
+  /* width: 400px;
+  height: 500px; */
+  background-color:white;
+
+
+  margin: 10px;
+}
+.bgblog{
+  width: 370px;
+  height: 150px; 
+  background-image: url("./assets/Rectangle.png");
+}
+.blogpf{
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-left: 30px;
+  background: url(./assets/Ellipse.png);
 }
 
