@@ -44,8 +44,8 @@ function App() {
           <Header />
 
           <Routes>
+            <Route path="/" element={<Home />} />
             <Route path="/Product" element={<Product />} />
-            <Route path="/Home" element={<Home />} />
             <Route path="/Contacts" element={<Contacts />} />
             <Route path="/Services" element={<Services />} />
             <Route path="/Login" element={<Login />} />

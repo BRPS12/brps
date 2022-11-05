@@ -197,8 +197,8 @@ body {
     height: 100vh;
    }
 .Container{
-  width:0px;
-  height:10000px;
+  width:100vw;
+  height:100vh;
   margin: 0;
 }
 .Garchig{
@@ -298,8 +298,12 @@ body {
   margin-top: 100px;
 }
 .Textboxcontainer{
-  width: 400px;
-  overflow-x: visible;
+  width:100vw;
+  height: 500px;
+  display: flex;
+  gap: 40px;
+  overflow-x: scroll;
+  margin-top: 200px;
 }
 .Textbox4{
   width: 300px;
@@ -307,9 +311,7 @@ body {
   background-color:white;
   border-color: gray;
   box-shadow:0px 0px 1px 4px black inset;
-  margin-left: 100px;
-  margin-top: 200px;
-  
+  margin: 10px;
 }
 .star{
   margin-top: 40px;
@@ -359,7 +361,7 @@ body {
 .inst{
   background-image: url("./assets/Instagram.png");
   width:22px;
-  height: 16px;
+  height: 1px;
   margin-top: 30px;
   margin-left: 140px;
 }

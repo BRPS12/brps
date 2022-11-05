@@ -3,6 +3,7 @@ import Teamprops from "../components/teamprops";
 import Teamprops2 from "../components/teamprops2";
 import Teamprops3 from "../components/teamprops3";
 import Teamprops4 from "../components/teamprops4";
+import { Col } from "react-bootstrap";
 
 const Home = () => {
   return (
@@ -49,67 +50,88 @@ const Home = () => {
         button3="Learn more ->"
         title2="What people say about us"
       />
-      <div style={{ display: "flex" }}>
-        <Teamprops4
-          name4="Amy Klassen"
-          content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
-          Profile=""
-          stars={[0, 1, 2, 3, 4]}
-        />
-        <Teamprops4
-          name4="Amy Klassen"
-          content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
-          Profile=""
-          stars={[0, 1, 2, 3, 4]}
-        />
-        <Teamprops4
-          name4="Amy Klassen"
-          content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
-          Profile=""
-          stars={[0, 1, 2, 3, 4]}
-        />
-        <Teamprops4
-          name4="Amy Klassen"
-          content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
-          Profile=""
-          stars={[0, 1, 2, 3, 4]}
-        />
-        <Teamprops4
-          name4="Amy Klassen"
-          content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
-          Profile=""
-          stars={[0, 1, 2, 3, 4]}
-        />
-        <Teamprops4
-          name4="Amy Klassen"
-          content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
-          Profile=""
-          stars={[0, 1, 2, 3, 4]}
-        />
-        <Teamprops4
-          name4="Amy Klassen"
-          content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
-          Profile=""
-          stars={[0, 1, 2, 3, 4]}
-        />
-        <Teamprops4
-          name4="Amy Klassen"
-          content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
-          Profile=""
-          stars={[0, 1, 2, 3, 4]}
-        />
-        <Teamprops4
-          name4="Amy Klassen"
-          content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
-          Profile=""
-          stars={[0, 1, 2, 3, 4]}
-        />
-        <Teamprops4
-          name4="Amy Klassen"
-          content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
-          Profile=""
-          stars={[0, 1, 2, 3, 4]}
-        />
+
+      <div className="Textboxcontainer">
+        <Col>
+          <Teamprops4
+            name4="Amy Klassen"
+            content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
+            Profile=""
+            stars={[0, 1, 2, 3, 4]}
+          />
+        </Col>
+        <Col>
+          <Teamprops4
+            name4="Amy Klassen"
+            content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
+            Profile=""
+            stars={[0, 1, 2, 3, 4]}
+          />
+        </Col>
+        <Col>
+          <Teamprops4
+            name4="Amy Klassen"
+            content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
+            Profile=""
+            stars={[0, 1, 2, 3, 4]}
+          />
+        </Col>
+        <Col>
+          <Teamprops4
+            name4="Amy Klassen"
+            content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
+            Profile=""
+            stars={[0, 1, 2, 3, 4]}
+          />
+        </Col>
+        <Col>
+          <Teamprops4
+            name4="Amy Klassen"
+            content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
+            Profile=""
+            stars={[0, 1, 2, 3, 4]}
+          />
+        </Col>
+        <Col>
+          <Teamprops4
+            name4="Amy Klassen"
+            content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
+            Profile=""
+            stars={[0, 1, 2, 3, 4]}
+          />
+        </Col>
+        <Col>
+          <Teamprops4
+            name4="Amy Klassen"
+            content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
+            Profile=""
+            stars={[0, 1, 2, 3, 4]}
+          />
+        </Col>
+        <Col>
+          <Teamprops4
+            name4="Amy Klassen"
+            content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
+            Profile=""
+            stars={[0, 1, 2, 3, 4]}
+          />
+        </Col>
+        <Col>
+          <Teamprops4
+            name4="Amy Klassen"
+            content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
+            Profile=""
+            stars={[0, 1, 2, 3, 4]}
+          />
+        </Col>
+        <Col>
+          <Teamprops4
+            name4="Amy Klassen"
+            content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
+            Profile=""
+            stars={[0, 1, 2, 3, 4]}
+          />
+        </Col>
       </div>
     </div>
   );
