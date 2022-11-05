@@ -54,8 +54,6 @@ function App() {
           <Footer instagram="Instagram" />
         </BrowserRouter>
       </div>
-
-      <div></div>
     </div>
   );
 }
