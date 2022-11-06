@@ -4,6 +4,7 @@ import Blog from "../components/blog";
 const Product = () => {
   return (
     <div className="BLOGPOSTS">
+      <Container className="w-100 ">
       <div >
         <div className="title" style={{ fontSize: "48px", fontWeight: "800" }}>
           Blog posts
@@ -16,7 +17,7 @@ const Product = () => {
         Our latest updates and blogs about managing your team
       </div>
       <div className="Blog">
-        <Container className="w-100 ">
+        
           <Row className="w-100">
             <Col className="w-25 m-2">
               <Blog
@@ -100,10 +101,10 @@ const Product = () => {
               />
             </Col>
           </Row>
-        </Container>
+        
       </div>
       <center><Button type="button" className="blogbutton btn btn-secondary">Next</Button></center>
-    </div>
+      </Container></div>
   );
 };
 export default Product;

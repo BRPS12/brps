@@ -238,7 +238,9 @@ body {
   margin: 10px;
 }
 .star{
-  margin-top: 40px;
+  width: 35px;
+  height: 35px;
+  display: flex;
   margin-left: 30px;
 }
 .Content4{
@@ -302,6 +304,7 @@ body {
 }
 .bgblog{
   height: 150px; 
+  width: 100vw;
 }
 .blogpf{
   width: 55px;
@@ -318,91 +321,57 @@ body {
   margin-bottom: 50px;
   margin-top: 30px;
 }
-img {
-  width: 100%;
-  height: 100%;
-}
-
-.row1 {
-  flex-direction: row;
-  align-items: center;
-  display: flex;
-}
-
-.zugeer {
-  height: 100vh;
-  width: 50vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.tom {
-  font-size: 48px;
-  color: white;
-  margin: 0px;
-}
-
-.jijig {
-  font-size: 25px;
-  color: white;
-}
-.star{
-  width: 35px;
-  height: 35px;
-  display: flex;
-}
-
-.search {
-  width: 316px;
-  height: 56px;
-  font-size: 28px;
-  margin-top: 50px;
-}
-
-
-p {
-  margin: 10px;
-  font-size: 20px;
-}
-.name {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 10px;
-}
-.pro {
-  margin: 10px;
-  width: 16%;
-  height: 85%;
-}
-.pro1 {
-  width: 56px;
-  height: 56px;
-}
-
-.center {
-  height: 1600px;
+.Services{
   width: 100vw;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: flex-start;
   background-color: white;
 }
-.margin {
-  margin-left: 30%;
-  margin-right: 30%;
-}
-.margin1 {
-  margin: 10%;
-}
-.text {
-  margin-top: 20px;
-  margin-left: 0%;
-}
-.Servicecont{
-   width: 800px;
-}
 
-
+.Header5{
+  height: 50px;
+  width: 50vw;
+  display: flex;
+  color: black;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  align-items: center;
+}
+.pro5{
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin: 5px;
+}
+.bgservices{
+  display: flex;
+  flex-direction: column;
+  background-image: url("./assets/istock.png");
+  height: 100vh;
+  background-size: 100%;
+  margin-top: 100px;
+}
+.content5{
+  font-size: 20px;
+  line-height: 28.11px;
+  font-weight: 400;
+  align-items: center;
+  margin-top: 100px;
+}
+.comments{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.inputcomment{
+  width:700px;
+  height:90px;
+  margin-left: 10px;
+}
+.pro6{
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
 
