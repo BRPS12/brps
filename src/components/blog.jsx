@@ -2,13 +2,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Blog = ({ bg, blogheader, blogcontent, blogname, blogpf }) => {
   const blogstyle = {
     header: {
-      fontSize: 30,
+      fontSize: 25,
       marginLeft: 10,
       marginTop: 10,
     },
     content: {
       marginTop: 10,
       marginLeft: 10,
+      width:300,
+      height:50,
     },
     name: {
       display: "flex",
@@ -22,7 +24,7 @@ const Blog = ({ bg, blogheader, blogcontent, blogname, blogpf }) => {
     },
   };
   return (
-    <div className="blogpost rounded-5">
+    <div className="blogpost rounded-5 m-25" >
       <div style={{ display: "flex" }}>
         <img className="bgblog border-top rounded-5" src={bg} alt={bg} />
       </div>

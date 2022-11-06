@@ -3,6 +3,12 @@ body {
   overflow-x: hidden;
 
 }
+.Container{
+  width:100vw;
+  height:100vh;
+  margin: 0;
+
+}
 
   .Body {
   width: 100vw;
@@ -44,6 +50,9 @@ body {
     font-weight: 700;
     margin-left: 200px;
   }
+  .title3{
+    margin-left: 200px;
+  }
   .text {
     width: 320px;
     font-size: 18px;
@@ -73,11 +82,6 @@ body {
     border: 0.5px solid grey;
     margin-left: 20px;
     
-  }
-  .Product{
-   background-color: #0bbef2;
-   width: 200vh;
-   height: 100vh;
   }
   .App {
     height: 50px;
@@ -118,30 +122,21 @@ body {
     width: 200vh;
     height: 100vh;
    }
-   .Services{
-    background-color: green;
-    width: 200vh;
-    height: 100vh;  
-   }
    .Login{
     background-color: pink;
     width: 200vh;
     height: 100vh;
    }
-.Container{
+.props1{
   width:100vw;
   height:100vh;
-  margin: 0;
-
-}
+  }
 .Textbox{
   display: flex;
-  margin-left: 200px;
   flex-direction: column;
-  margin-top: 600px;
-  width: 400px;
+  width: 430px;
   height: 700px;
-
+  margin-right: 150px;
 }
 .Garchig{
   font-size: xx-large;
@@ -150,28 +145,28 @@ body {
   font-weight: 700;
   
 }
-
 .image1{
-  background-image: url("./assets/meet.png");
-  position: absolute;
-  width: 660px;
-  height: 705px;
-  left: 1580px;
-  top: 1270px;
+  width: 850px;
+  height: 450px;
+
 }
 .Content{
   font-size:larger;
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 45px;
+  line-height: 40px;
   font-weight: 10;
+}
+.props2{
+  width:100vw;
+  height:100vh;
 }
 .Textbox2{
   display: flex;
-  margin-left: 1400px;
   flex-direction: column;
-  margin-top: 100px;
-  width: 400px;
+  width: 430px;
   height: 700px;
+  margin-left: 150px;
+
 }
 .Garchig2{
   font-size: xx-large;
@@ -187,19 +182,17 @@ body {
   font-weight: 10;
 }
 .image2{
-  background-image: url("./assets/brooke-cagle-JBwcenOuRCg-unsplash\ \(1\)\ 1.png");
-  position: absolute;
-  width: 560px;
-  height: 570px;
-  left: 230px;
-  top: 2170px;
+  height: 450px;
+  width: 450px;
+}
+.props3{
+  width:100vw;
+  height:100vh;
 }
 .Textbox3{
   display: flex;
-  margin-left: 200px;
   flex-direction: column;
-  margin-top: 100px;
-  width: 400px;
+  width: 430px;
   height: 700px;
 }
 .Garchig3{
@@ -216,21 +209,17 @@ body {
   font-weight: 10;
 }
 .image3{
-  background-image: url("./assets/brooke-cagle-JBwcenOuRCg-unsplash\ \(1\)\ 1-2.png");
-  position: absolute;
-  width: 560px;
-  height: 570px;
-  left: 1580px;
-  top: 2960px;
+  height: 450px;
+  width: 450px;
+  margin-left: 300px;
 }
+
 .title2{
   width: 600px;
   font-size: 50px;
   line-height: 70px;
   font-weight: 700;
-  margin-left: 650px;
   display: flex;
-  margin-top: 100px;
 }
 .Textboxcontainer{
   width:100vw;
@@ -238,7 +227,7 @@ body {
   display: flex;
   gap: 40px;
   overflow-x: scroll;
-  margin-top: 200px;
+  margin-top: 50px;
 }
 .Textbox4{
   width: 300px;
@@ -291,27 +280,27 @@ body {
   font-weight: 700;
   background-image: url(./assets/team..png);
 }
-.inst{
-  background-image: url("./assets/Instagram.png");
-  width:22px;
-  height: 1px;
-  margin-top: 30px;
-  margin-left: 140px;
-}
 .Instagram {
   display: flex;
 }
 .BLOGPOSTS{
   background-color: aliceblue;
+
 }
+.Blog{
+  margin-top: 50px;
+}
+.title3{
+  margin-top: 20px;
+}
+
 .blogpost{
   background-color:white;
-
-
   margin: 10px;
+
+  height: 440px;
 }
 .bgblog{
-  width: 370px;
   height: 150px; 
 }
 .blogpf{
@@ -319,8 +308,16 @@ body {
   height: 55px;
   border-radius: 50%;
   margin-left: 30px;
+  margin-bottom: 30px;
 }
-
+.blogbutton{
+  width: 100px;
+  height: 40px;
+  background-color: gray;
+  border-color: aliceblue;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
 img {
   width: 100%;
   height: 100%;
@@ -384,7 +381,7 @@ p {
 }
 
 .center {
-  height: 100vh;
+  height: 1600px;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -402,6 +399,9 @@ p {
 .text {
   margin-top: 20px;
   margin-left: 0%;
+}
+.Servicecont{
+   width: 800px;
 }
 
 

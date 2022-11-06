@@ -1,17 +1,17 @@
-import second from "../assets/Rectangle.png";
+import image5 from "../assets/istock.png";
 export const Services = () => {
   return (
     <div className="center">
       <div className="margin">
         <div style={{ "margin-top": "15%" }}>
-          <h1 style={{}}>10 Secrets for managing a remote team </h1>
+          <h1>10 Secrets for managing a remote team </h1>
           <div className="row1" style={{ margin: "5%" }}>
             <img src="" alt="" className="pro1"></img>
             <p>Shedrack eze</p>
             <p style={{ marginLeft: "50px" }}>2nd January,2022</p>
           </div>
-          <img src={second} alt="" style={{ width: "1000px" }}></img>
-
+          <img src={image5} alt="" style={{ width: "1000px" }} className="image5"/>
+          <center><div className="Servicecont">
           <p style={{ marginTop: "5%" }}>
             If you’re thinking of starting a blog of your own, but just don’t
             have a clue on what to blog about, then fear not! In this article, I
@@ -40,6 +40,7 @@ export const Services = () => {
             their owners, but all have the same purpose at their core… the love
             of writing and sharing information.
           </p>
+          </div></center>
         </div>
       </div>
     </div>

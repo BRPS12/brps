@@ -1,8 +1,4 @@
-import { Button } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { useState } from "react";
 const Content = ({ title, text, placeholder, button, type }) => {
-  const [isDisable, setIsDisable] = useState(true);
   return (
     <div className="content">
       <div className="title">{title}</div>
