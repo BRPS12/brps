@@ -62,17 +62,17 @@ const Home = () => {
         </Col>
         <Col>
           <Teamprops4
-            name4="Amy Klassen"
-            content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
-            profile=""
+            name4="Eleanor Pena"
+            content4="Nulla Lorem mollit cupidatat irure. Laborum magna nulla cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum."
+            profile="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c21pbGV8ZW58MHx8MHx8&w=1000&q=80"
             stars={[0, 1, 2, 3, 4]}
           />
         </Col>
         <Col>
           <Teamprops4
-            name4="Amy Klassen"
-            content4="Give everyone you work with—inside and outside your emoji, keep conversations focused in channels, and simplify all your communication into one place."
-            profile=""
+            name4="Boldin Ashid Bahli"
+            content4="Yr ni bol hicheelee hii , uurtuu anhaar buh ym saihan bolno. Ta burhand itgdg bol nmg dagna uu. Nmg humuus Boldin huuhed gd bdg ym. Tiimee bi Boldin huuhed nda tal talin avyas bii. Nmg joker c gj duudg."
+            profile="https://media.discordapp.net/attachments/1030738226626965506/1039127219747967006/IMG_9115.jpg?width=363&height=427"
             stars={[0, 1, 2, 3, 4]}
           />
         </Col>

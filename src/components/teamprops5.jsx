@@ -6,7 +6,7 @@ const Teamprops5 = ({header5 ,  pro5 , name5 , nametag5, image5 , content5 , pla
         <div>
         <div className="Header5">{header5}</div>
         <div style={{display:"flex" , flexDirection:"row" , alignItems : "center" , marginTop : "100px"}}>
-        <img className="pro5"src={pro5} alt=""/>
+        <img className="pro5" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80" alt={pro5}/>
         <p style={{color: "gray" , marginLeft: 30}}>{name5}</p>
         <p style={{color: "gray" , marginLeft: 30}}>|</p>
         <p style={{color: "gray" , marginLeft: 30}}>{nametag5}</p>
@@ -17,7 +17,7 @@ const Teamprops5 = ({header5 ,  pro5 , name5 , nametag5, image5 , content5 , pla
         <center><p className="content5">{content5}</p></center>
         </div>
         <div className="Fullname" style={{display: "flex" , alignItems:"center"}}>
-        <img className="pro5"src={pro5} alt=""/>
+        <img className="pro5"src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80" alt={pro5}/>
         <div style={{flexDirection:"row",  marginTop : 50}}>
         <p>Written by
         <p style={{fontSize: 23}}>Shedrack Eze</p></p>

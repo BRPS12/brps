@@ -20,7 +20,7 @@ const Blog = ({ bg, blogheader, blogcontent, blogname, blogpf }) => {
     },
     fullname: {
       display: "flex",
-      marginTop: 40,
+      marginTop: 50,
     },
   };
   return (

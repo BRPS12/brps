@@ -1,9 +1,10 @@
-import { Container , Row , Col } from "react-bootstrap";
+import { Container ,Col } from "react-bootstrap";
 import Teamprops5 from "../components/teamprops5"
   const Services = () => {
   return (
     <div  className="Services">
     <Container>
+      <Col>
     <Teamprops5
     header5="10 Secrets for managing a remote team "
     pro5=""
@@ -24,7 +25,7 @@ import Teamprops5 from "../components/teamprops5"
     Some of these blogs make over $100k a month, others are just a hobby for their owners, but all have the same purpose at their core… the love of writing and sharing information.
     Some of these blogs make over $100k a month, others are just a hobby for their owners, but all have the same purpose at their core… the love of writing and sharing information." 
     placeholder="Comments"/>
-    
+    </Col>
     </Container>
     </div>
   );
