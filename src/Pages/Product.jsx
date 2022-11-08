@@ -1,23 +1,40 @@
-import { Col, Container, Row , Button} from "react-bootstrap";
+import { Col, Container, Row, Button } from "react-bootstrap";
+import { useContext } from "react";
+import { darkModeContext } from "../App";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Blog from "../components/blog";
 const Product = () => {
+  const { isDarkMode } = useContext(darkModeContext);
+  const styles = {
+    box: {
+      backgroundColor: isDarkMode ? "black" : "white",
+    },
+  };
   return (
-    <div className="BLOGPOSTS">
+    <div className="BLOGPOSTS" style={styles.box}>
       <Container className="w-100 ">
-      <div >
-        <div className="title" style={{ fontSize: "48px", fontWeight: "800" }}>
-          Blog posts
+        <div>
+          <div
+            className="title"
+            style={{
+              color: isDarkMode ? "white" : "black",
+            }}
+          >
+            Blog posts
+          </div>
         </div>
-      </div>
-      <div
-        className="title3"
-        style={{ fontSize: "18px", lineHeight: "29px", fontWeight: "600" }}
-      >
-        Our latest updates and blogs about managing your team
-      </div>
-      <div className="Blog">
-        
+        <div
+          className="title3"
+          style={{
+            fontSize: "18px",
+            lineHeight: "29px",
+            fontWeight: "600",
+            color: isDarkMode ? "white" : "black",
+          }}
+        >
+          Our latest updates and blogs about managing your team
+        </div>
+        <div className="Blog">
           <Row className="w-100">
             <Col className="w-25 m-2">
               <Blog
@@ -45,7 +62,7 @@ const Product = () => {
                 blogname="Courtney Henry | 2nd January , 2022"
                 bg="https://images.unsplash.com/photo-1603202662747-00e33e7d1468?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80"
                 blogpf="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c21pbGV8ZW58MHx8MHx8&w=1000&q=80"
-                />
+              />
             </Col>
           </Row>
           <Row className="w-100">
@@ -55,7 +72,8 @@ const Product = () => {
                 blogcontent="It’s 2020, but women designers still face lower pay and less opportunity. What gives?"
                 blogname="Snoop Dog | 2nd January , 2022"
                 bg="https://www.istockphoto.com/resources/images/istock-diff-screen-poster.png"
-                blogpf="https://upload.wikimedia.org/wikipedia/commons/1/17/Snoop_Dogg_2019_by_Glenn_Francis.jpg"/>
+                blogpf="https://upload.wikimedia.org/wikipedia/commons/1/17/Snoop_Dogg_2019_by_Glenn_Francis.jpg"
+              />
             </Col>
             <Col className="w-25 m-2">
               <Blog
@@ -73,7 +91,8 @@ const Product = () => {
                 Our latest updates and blogs about managing your team"
                 blogname="Eleanor Pena | 2nd January , 2022"
                 bg="https://www.noaa.gov/sites/default/files/styles/landscape_width_1275/public/legacy/image/2019/Jun/PHOTO-dark%20and%20stormy%20cloudscape-istock-1125x534-Landscape.jpg"
-                blogpf="https://ml8z4wffbwun.i.optimole.com/w:513/h:513/q:mauto/https://cataly5t.co.za/wp-content/uploads/2022/02/pexels-andrea-piacquadio-3769021-1.png"/>
+                blogpf="https://ml8z4wffbwun.i.optimole.com/w:513/h:513/q:mauto/https://cataly5t.co.za/wp-content/uploads/2022/02/pexels-andrea-piacquadio-3769021-1.png"
+              />
             </Col>
           </Row>
           <Row className="w-100">
@@ -106,10 +125,16 @@ const Product = () => {
               />
             </Col>
           </Row>
-        
-      </div>
-      <center><Button type="button" className="blogbutton btn btn-secondary">Next</Button></center>
-      </Container></div>
+        </div>
+        <center>
+          <Button type="button" className="blogbutton btn btn-secondary">
+            Next
+          </Button>
+        </center>
+      </Container>
+      <Blog header pf />
+      <Blog header pf />
+    </div>
   );
 };
 export default Product;

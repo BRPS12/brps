@@ -1,17 +1,18 @@
-import { Container ,Col } from "react-bootstrap";
-import Teamprops5 from "../components/teamprops5"
-  const Services = () => {
+import { Container, Col } from "react-bootstrap";
+import Teamprops5 from "../components/teamprops5";
+
+const Services = () => {
   return (
-    <div  className="Services">
-    <Container>
-      <Col>
-    <Teamprops5
-    header5="10 Secrets for managing a remote team "
-    pro5=""
-    name5="Shedrack eze"
-    nametag5="2nd January,2022"
-    image5=""
-    content5="If you’re thinking of starting a blog of your own, but just don’t have a clue on what to blog about, then fear not!
+    <div className="Services">
+      <Container>
+        <Col>
+          <Teamprops5
+            header5="10 Secrets for managing a remote team "
+            pro5=""
+            name5="Shedrack eze"
+            nametag5="2nd January,2022"
+            image5=""
+            content5="If you’re thinking of starting a blog of your own, but just don’t have a clue on what to blog about, then fear not!
 
     In this article, I have included a whole load of blog examples from a wide variety of different niches, all run on different blogging platforms like WordPress, Joomla! and Drupal.
     
@@ -23,10 +24,11 @@ import Teamprops5 from "../components/teamprops5"
     Some of these blogs make over $100k a month, others are just a hobby for their owners, but all have the same purpose at their core… the love of writing and 
     
     Some of these blogs make over $100k a month, others are just a hobby for their owners, but all have the same purpose at their core… the love of writing and sharing information.
-    Some of these blogs make over $100k a month, others are just a hobby for their owners, but all have the same purpose at their core… the love of writing and sharing information." 
-    placeholder="Comments"/>
-    </Col>
-    </Container>
+    Some of these blogs make over $100k a month, others are just a hobby for their owners, but all have the same purpose at their core… the love of writing and sharing information."
+            placeholder="Comments"
+          />
+        </Col>
+      </Container>
     </div>
   );
 };

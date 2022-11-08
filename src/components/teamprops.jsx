@@ -1,7 +1,7 @@
 import { Button } from "react-bootstrap";
-const Teamprops = ({ header, content, button, image1, image2, image3 }) => {
+const Teamprops = ({ header, content, button, image1 }) => {
   return (
-    <div className="props1" style={{display : "flex" , flexDirection:"row"}}>
+    <div className="props1" style={{ display: "flex" }}>
       <div className="Textbox">
         <div className="Garchig" style={{ margin: 10 }}>
           {header}
@@ -9,9 +9,14 @@ const Teamprops = ({ header, content, button, image1, image2, image3 }) => {
         <div className="Content" style={{ margin: 10 }}>
           {content}
         </div>
-        <Button className="btn btn-light" style={{ width: 200 ,  margin: 10, color: "Blue", }}>{button}</Button>
-        </div>
-        <img src={image1} alt="" className="image1" />
+        <Button
+          className="btn btn-light"
+          style={{ width: 200, margin: 10, color: "Blue" }}
+        >
+          {button}
+        </Button>
+      </div>
+      <img src={image1} alt="" className="image1" />
     </div>
   );
 };

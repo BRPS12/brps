@@ -3,7 +3,7 @@ import Teamprops from "../components/teamprops";
 import Teamprops2 from "../components/teamprops2";
 import Teamprops3 from "../components/teamprops3";
 import Teamprops4 from "../components/teamprops4";
-import { Col, Container  } from "react-bootstrap";
+import { Col, Container } from "react-bootstrap";
 
 const Home = () => {
   return (
@@ -15,32 +15,34 @@ const Home = () => {
         placeholder="Email"
         type="email"
       />
-      
-     <Container>
-      <Col className="w-50">
-      <Teamprops
-        header="Your hub for Teamwork"
-        content="Give everyone you work with—inside and outside your company—a more productive way to stay in sync. Respond faster with emoji, keep conversations focused in channels, and simplify all your communication into one place."
-        button="Learn more ->"
-        image1="https://uploads-ssl.webflow.com/5eaa67fcbc49cd35196dccb7/5eabc256573fea80b426f19b_ooto%20Meetings-min.png"
-      /></Col>
-      <Col className="w-50">
-      <Teamprops2
-        header2="Simple task management"
-        content2="Give everyone you work with—inside and outside your company—a more productive way to stay in sync. Respond faster with emoji, keep conversations focused in channels, and simplify all your communication into one place."
-        button2="Learn more ->"
-        image2="https://assets.bizclikmedia.net/576/496bfa2c2c7ebeca69e092c50b3b26a1:0843008e222f5d7c19d81b82f9ccb799/brooke-cagle-jbwcenourcg-unsplash.jpg"
-      />
-      </Col>
 
-      <Col>
-      <Teamprops3
-        header3="Scheduling that actually works"
-        content3="Give everyone you work with—inside and outside your company—a more productive way to stay in sync. Respond faster with emoji, keep conversations focused in channels, and simplify all your communication into one place."
-        button3="Learn more ->"
-        title2="What people say about us"
-        image3="https://images.unsplash.com/photo-1543270122-f7a11ad44f3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80"
-      /></Col>
+      <Container>
+        <Col className="w-50">
+          <Teamprops
+            header="Your hub for Teamwork"
+            content="Give everyone you work with—inside and outside your company—a more productive way to stay in sync. Respond faster with emoji, keep conversations focused in channels, and simplify all your communication into one place."
+            button="Learn more ->"
+            image1="https://uploads-ssl.webflow.com/5eaa67fcbc49cd35196dccb7/5eabc256573fea80b426f19b_ooto%20Meetings-min.png"
+          />
+        </Col>
+        <Col className="w-50">
+          <Teamprops2
+            header2="Simple task management"
+            content2="Give everyone you work with—inside and outside your company—a more productive way to stay in sync. Respond faster with emoji, keep conversations focused in channels, and simplify all your communication into one place."
+            button2="Learn more ->"
+            image2="https://assets.bizclikmedia.net/576/496bfa2c2c7ebeca69e092c50b3b26a1:0843008e222f5d7c19d81b82f9ccb799/brooke-cagle-jbwcenourcg-unsplash.jpg"
+          />
+        </Col>
+
+        <Col>
+          <Teamprops3
+            header3="Scheduling that actually works"
+            content3="Give everyone you work with—inside and outside your company—a more productive way to stay in sync. Respond faster with emoji, keep conversations focused in channels, and simplify all your communication into one place."
+            button3="Learn more ->"
+            title2="What people say about us"
+            image3="https://images.unsplash.com/photo-1543270122-f7a11ad44f3a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80"
+          />
+        </Col>
       </Container>
 
       <Container className="Textboxcontainer">
@@ -72,7 +74,7 @@ const Home = () => {
           <Teamprops4
             name4="Boldin Ashid Bahli"
             content4="Yr ni bol hicheelee hii , uurtuu anhaar buh ym saihan bolno. Ta burhand itgdg bol nmg dagna uu. Nmg humuus Boldin huuhed gd bdg ym. Tiimee bi Boldin huuhed nda tal talin avyas bii. Nmg joker c gj duudg."
-            profile="https://media.discordapp.net/attachments/1030738226626965506/1039127219747967006/IMG_9115.jpg?width=363&height=427"
+            profile=""
             stars={[0, 1, 2, 3, 4]}
           />
         </Col>
