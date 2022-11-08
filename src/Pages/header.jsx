@@ -33,8 +33,8 @@ const Header = () => {
         />
       </Form>
       <div className="Bar">
-        <Link className="App" style={styles.navItem} to={"./Product"}>
-          Product
+        <Link className="App" style={styles.navItem} to={"./Blogs"}>
+          Blogs
         </Link>
         <Link className="App" style={styles.navItem} to={"./Services"}>
           Services

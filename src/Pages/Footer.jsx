@@ -13,7 +13,7 @@ const Footer = () => {
           <Col>Use Cases</Col>
           <Col>Explore</Col>
           <Col>Resources</Col>
-          <Col>Subscribe to our newsletter</Col>
+          <Col></Col>
         </Row>
         <Row className="mt-3">
           <Col>instagram</Col>
@@ -27,7 +27,8 @@ const Footer = () => {
           <Col>UX design</Col>
           <Col>Costumers</Col>
           <Col>Support</Col>
-          <Col>
+          <Col style={{ fontSize: 20, fontWeight: 400 }}>
+            Subscribe to our newsletter
             <input
               type="email"
               placeholder="Email"

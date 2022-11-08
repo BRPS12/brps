@@ -1,5 +1,5 @@
 import "./App.css";
-import Product from "./Pages/Product";
+import Blogs from "./Pages/Blogs";
 import Header from "./Pages/header";
 import Contacts from "./Pages/Contacts";
 import Home from "./Pages/Home";
@@ -18,7 +18,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Product" element={<Product />} />
+          <Route path="/Blogs" element={<Blogs />} />
           <Route path="/Contacts" element={<Contacts />} />
           <Route path="/Services" element={<Services />} />
           <Route path="/Login" element={<Login />} />
