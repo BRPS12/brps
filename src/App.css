@@ -10,7 +10,7 @@ body {
 
 .Body {
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   background-image: url("./assets/brooke-cagle-cb4Dv50LN1Y-unsplash\ 1.jpg");
   background-size: 100%;
   margin: 0;
@@ -20,6 +20,7 @@ body {
   justify-content: space-around;
   align-items: center;
   position: absolute;
+  top: 0;
   width: 100vw;
 }
 .bar {
@@ -43,6 +44,18 @@ body {
   line-height: 70px;
   font-weight: 700;
   margin-left: 200px;
+}
+.title2 {
+  width: 530px;
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 700;
+}
+.title3 {
+  width: 530px;
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 700;
 }
 .text {
   width: 320px;
@@ -125,6 +138,7 @@ body {
   width: 430px;
   height: 700px;
   margin-right: 150px;
+  margin-top: 150px;
 }
 .Garchig {
   font-size: xx-large;
@@ -133,8 +147,8 @@ body {
   font-weight: 700;
 }
 .image1 {
-  width: 850px;
-  height: 450px;
+  width: 50vw;
+  height: 50vh;
 }
 .Content {
   font-size: larger;
@@ -166,8 +180,8 @@ body {
   font-weight: 10;
 }
 .image2 {
-  height: 450px;
-  width: 450px;
+  height: 25vw;
+  width: 45vh;
 }
 .props3 {
   width: 100vw;
@@ -264,7 +278,6 @@ body {
 }
 .blogpost {
   margin: 10px;
-
   height: 440px;
 }
 .bgblog {
@@ -309,20 +322,14 @@ body {
   margin-bottom: 30px;
   margin: 5px;
 }
-.bgservices {
-  display: flex;
-  flex-direction: column;
-  background-image: url("./assets/istock.png");
-  height: 100vh;
-  background-size: 100%;
-  margin-top: 100px;
-}
+
 .content5 {
   font-size: 20px;
-  line-height: 28.11px;
+  line-height: 35px;
   font-weight: 400;
   align-items: center;
   margin-top: 100px;
+  width: 40vw;
 }
 .comments {
   margin-top: 50px;

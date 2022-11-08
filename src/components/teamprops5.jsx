@@ -32,7 +32,11 @@ const Teamprops5 = ({
         </div>
       </div>
       <div>
-        <div className="bgservices">{image5}</div>
+        <img
+          style={{ width: "60vw", height: "60vh", marginTop: 50 }}
+          src="https://media.istockphoto.com/id/1308964737/photo/business-professionals-applauding-at-a-seminar.jpg?s=612x612&w=0&k=20&c=5K2lx04-jnYq9F__ZB6pci333qhRNzdaTNfsE0V91Xk="
+          alt=""
+        />
         <center>
           <p className="content5">{content5}</p>
         </center>
