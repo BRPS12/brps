@@ -138,7 +138,7 @@ body {
   width: 430px;
   height: 700px;
   margin-right: 150px;
-  margin-top: 150px;
+
 }
 .Garchig {
   font-size: xx-large;
@@ -328,7 +328,7 @@ body {
   line-height: 35px;
   font-weight: 400;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 50px;
   width: 40vw;
 }
 .comments {

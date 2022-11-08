@@ -7,7 +7,7 @@ const Footer = () => {
       style={{ backgroundColor: "#252B3B" }}
       className="footer w-100 text-white"
     >
-      <Container className="p-2" style={{ fontSize: 20 }}>
+      <Container className="p-2">
         <Row className="mb-5">
           <Col>TEAM</Col>
           <Col>Use Cases</Col>
